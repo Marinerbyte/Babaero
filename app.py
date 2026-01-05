@@ -350,7 +350,7 @@ Goal: Make the user feel like you are a cool local from their own city.
     }
 
     payload = {
-        "model": "llama3-8b-8192",
+        "model": "llama-3.1-8b-instant",
         "messages": [
             {"role": "system", "content": sys_prompt},
             *AI_CONTEXT
